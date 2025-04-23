@@ -485,7 +485,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # Comment config
     # 评论系统设置
     [params.page.comment]
-      enable = false
+      enable = true
       # Disqus comment config (https://disqus.com/)
       # Disqus 评论系统设置 (https://disqus.com/)
       [params.page.comment.disqus]
@@ -504,7 +504,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # Valine comment config (https://github.com/xCss/Valine)
       # Valine 评论系统设置 (https://github.com/xCss/Valine)
       [params.page.comment.valine]
-        enable = true
+        enable = false
         appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
         appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
         placeholder = ""
@@ -570,20 +570,23 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       [params.page.comment.giscus]
         # You can refer to the official documentation of giscus to use the following configuration.
         # 你可以参考官方文档来使用下列配置
-        enable = false
-        repo = ""
-        repoId = ""
-        category = "Announcements"
-        categoryId = ""
+        enable = true
+        repo="hermit1x/hermit1x.github.io"
+        repoId="R_kgDOJ4KE8A"
+        category="Announcements"
+        categoryId="DIC_kwDOJ4KE8M4CpXR7"
+        mapping="pathname"
+        strict="0"
+        reactionsEnabled="1"
+        emit-metadata="0"
+        input-position="bottom"
+        theme="preferred_color_scheme"
+        lang="zh-CN"
         # automatically adapt the current theme i18n configuration when empty
         # 为空时自动适配当前主题 i18n 配置
-        lang = ""
-        mapping = "pathname"
-        reactionsEnabled = "1"
-        emitMetadata = "0"
         inputPosition = "bottom"
         lazyLoading = false
-        lightTheme = "light"
+        lightTheme = "dark"
         darkTheme = "dark"
     # Third-party library config
     # 第三方库配置

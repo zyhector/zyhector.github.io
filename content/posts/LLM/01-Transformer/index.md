@@ -69,7 +69,7 @@ $$\mathrm{Attention}(Q,K,V)=\mathrm{softmax}(\frac{QK^T}{\sqrt{d_k}})V$$
 
 要实现更新$\overrightarrow{E}$，要知道Key向量$\overrightarrow{E}_K$该怎么更新Query向量$\overrightarrow{E}_Q$，具体的说，该对Query向量的值做何种改变。这里就需要Value矩阵$W_V$，乘以Key向量$\overrightarrow{E}_K$，得到值向量$\overrightarrow{V}$，并加到$\overrightarrow{E}_Q$向量中。
 
-$$\overrightarrow{E}_{Q_i}' = \overrightarrow{E}_{Q_i} + \sum_{j \in context} \mathrm{Attention}(Q_i,K_j,V_j) $$
+$$ \overrightarrow{E_{Q_i}}' = \overrightarrow{E_{Q_i} }+ \sum_{j \in context} \mathrm{Attention}(Q_i,K_j,V_j) $$
 
 $W_Q,W_K$矩阵分别为12,288（嵌入空间维度）x128（查询空间维度）=1,572,864个参数。
 

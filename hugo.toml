@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://hermitix.com"
 
 # 更改使用 Hugo 构建网站时使用的默认主题
 theme = "loveit"
@@ -405,7 +405,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       Telegram = true # 
     #  评论系统设置
     [params.page.comment]
-      enable = false
+      enable = true
       # Disqus 评论系统设置
       [params.page.comment.disqus]
         # 
@@ -612,6 +612,11 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       table = true
       taskList = true
       typographer = true
+      [markup.goldmark.extensions.passthrough]                                                                                                                                                                                    
+        enable = true                                                                                                                                                                                                             
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [["$$", "$$"], ["\\[", "\\]"]]
+          inline = [["$", "$"], ["\\(", "\\)"]]
     [markup.goldmark.renderer]
       # 是否在文档中直接使用 HTML 标签
       unsafe = true

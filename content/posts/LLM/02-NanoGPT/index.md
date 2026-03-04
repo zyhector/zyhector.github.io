@@ -172,11 +172,9 @@ $$
 1&1&1&1&1&1&1&0\\
 1&1&1&1&1&1&1&1\\
 \end{bmatrix},
-
 \vec{x} = \begin{bmatrix}
 x_0 \\ x_1 \\ x_2 \\ x_3 \\ x_4 \\ x_5 \\ x_6 \\ x_7
 \end{bmatrix},
-
 \vec{y} = \begin{bmatrix}
 y_0 \\ y_1 \\ y_2 \\ y_3 \\ y_4 \\ y_5 \\ y_6 \\ y_7
 \end{bmatrix}

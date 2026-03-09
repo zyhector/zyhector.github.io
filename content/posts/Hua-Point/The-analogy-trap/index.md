@@ -6,8 +6,8 @@ draft: false
 toc:
     enable: true
 weight: false
-categories: [""]
-tags: [""]
+categories: ["华点"]
+tags: ["AI", "OpenClaw", "认知", "心理学"]
 ---
 
 最近 OpenClaw 在 Github 上的 star 数，成功打败了 linux 和 React，登上了 Github 的榜一。借此机会，想聊一聊关于 OpenClaw 的两种主流声音：一部分人觉得 OpenClaw 是 AGI 的初步形态，是 Web4.0，是 AI 革命的一次重要更新。另一部分人觉得 OpenClaw 狂欢是新一次的“气功热”，是大模型商家为了卖 token 做的局。

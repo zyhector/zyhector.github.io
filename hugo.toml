@@ -98,7 +98,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   # 作者配置
   [params.author]
-    name = "Hermitix"
+    name = "华华"
     email = ""
     link = ""
 
@@ -113,7 +113,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # LOGO 的 URL
       logo = ""
       # 标题名称（左上的标题）
-      name = "Hermitix's Blog"
+      name = "Hector's Blog"
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = ""
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
@@ -311,7 +311,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   #  文章页面全局配置
   [params.page]
-    author = "Hermitix"
+    author = "Hector"
     #  是否在主页隐藏一篇文章
     hiddenFromHomePage = false
     #  是否在搜索结果中隐藏一篇文章

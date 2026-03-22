@@ -77,7 +77,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
     post = ""
     name = ""
-    url = "https://github.com/hermit1x"
+    url = "https://github.com/zyhector"
     title = "GitHub"
 [params]
   # 网站默认主题样式 ["auto", "light", "dark"]
@@ -476,7 +476,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       [params.page.comment.giscus]
         # 你可以参考官方文档来使用下列配置
         enable = true
-        repo="hermit1x/hermit1x.github.io"
+        repo="zyhector/zyhector.github.io"
         repoId="R_kgDOJ4KE8A"
         category="Announcements"
         categoryId="DIC_kwDOJ4KE8M4CpXR7"

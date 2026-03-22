@@ -46,17 +46,15 @@
                     <span class="icp">{{ . | safeHTML }}</span>
                 {{- end -}}
             </div>     
-            {{- if .Site.Params.busuanzi.enable -}}
-                <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            {{- if .Site.Params.vercount.enable -}}
+                <script defer src="https://events.vercount.one/js"></script>
                 <div class="footer-line">
-                    <span id="busuanzi_container_site_uv" style="display:none;">
-                        访客
-                        <span id="busuanzi_value_site_uv"></span>
-                        人 |
-                        点击量
-                        <span id="busuanzi_value_site_pv"></span>
-                        次
-                    </span>
+                    访客
+                    <span id="vercount_value_site_uv">qwq</span>
+                    人 |
+                    点击量
+                    <span id="vercount_value_site_pv">ovo</span>
+                    次
                 </div>
             {{- end -}}
         </div>

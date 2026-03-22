@@ -581,7 +581,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # "assets/data/cdn/"
     data = ""
   # 阅读量计数器
-  [params.busuanzi]
+  [params.vercount]
     enable = true
 
   #  兼容性设置

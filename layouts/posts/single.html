@@ -60,13 +60,11 @@
                         <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;{{ T "views" }}
                     </span>&nbsp;
                 {{- end -}}
-                {{- if .Site.Params.busuanzi.enable -}}
-                    <span id="busuanzi_container_page_pv" style="display:none;">
-                        <i class="fa fa-eye fa-fw" aria-hidden="true"></i>
-                        本文阅读量
-                        <span id="busuanzi_value_page_pv"></span>
-                        次
-                    </span>
+                {{- if .Site.Params.vercount.enable -}}
+                    <i class="fa fa-eye fa-fw" aria-hidden="true"></i>
+                    本文阅读量
+                    <span id="vercount_value_page_pv">inf</span>
+                    次
             {{- end -}}
             </div>
             

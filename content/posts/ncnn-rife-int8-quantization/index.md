@@ -13,7 +13,7 @@ tags: ["ncnn", "RIFE", "量化加速"]
 
 笔者欲将rife模型在手机上完成部署，进行视频插帧推理。
 
-项目：[https://github.com/hermit1x/rife-ncnn-android](https://github.com/hermit1x/rife-ncnn-android)
+项目：[https://github.com/zyhector/rife-ncnn-android](https://github.com/zyhector/rife-ncnn-android)
 
 使用的rife-v4.6模型，优化了视频输入输出，解决磁盘IO的瓶颈后，在8Gen3手机上，720p下达到了5.5fps的推理速度。但还是挺慢，就试图借助量化来进行加速。
 

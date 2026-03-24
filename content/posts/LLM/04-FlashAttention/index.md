@@ -110,4 +110,6 @@ $$o(x) = e^{x_i-m(x)}V =e^{x_i - m_1(x)}\cdot e^{m_1(x) - m(x)}V = o_1(x) e^{m_1
 
 ## 参考资料
 
+[Aleksa Gordić - ELI5: FlashAttention](https://gordicaleksa.medium.com/eli5-flash-attention-5c44017022ad)
+
 ![Flash Attention](./flash-attention.png)

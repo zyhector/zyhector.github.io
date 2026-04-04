@@ -208,7 +208,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       #  主页显示的网站标题 (支持 HTML 格式)
       title = "华华的小站"
       # 主页显示的网站副标题 (允许 HTML 格式)
-      subtitle = "世事漫随流水 算来一梦浮生"
+      subtitle = "要么孤独 要么庸俗"
       # 是否为副标题显示打字机动画
       typeit = true
       # 是否显示社交账号

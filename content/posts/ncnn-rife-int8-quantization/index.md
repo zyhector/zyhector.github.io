@@ -5,7 +5,7 @@ date: 2025-04-23T18:04:17+08:00
 toc:
     enable: true
 weight: false
-categories: ["人工智能"]
+categories: ["单卡道场"]
 tags: ["ncnn", "RIFE", "量化加速"]
 ---
 

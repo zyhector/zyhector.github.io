@@ -6,7 +6,7 @@ draft: false
 toc:
     enable: true
 weight: false
-categories: ["人工智能"]
+categories: ["单卡道场"]
 tags: ["LLM", "大模型", "笔记", "算法", "量化"]
 ---
 

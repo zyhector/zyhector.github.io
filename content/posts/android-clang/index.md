@@ -5,7 +5,7 @@ date: 2025-03-11T13:39:23+08:00
 toc:
     enable: true
 weight: false
-categories: ["学编程"]
+categories: ["问学书斋"]
 tags: ["Android", "LLVM", "clang", "编译", "配环境", "C++"]
 ---
 

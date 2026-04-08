@@ -6,7 +6,7 @@ draft: false
 toc:
     enable: true
 weight: false
-categories: ["玩具们"]
+categories: ["家酿机房"]
 tags: ["外设", "游戏"]
 ---
 

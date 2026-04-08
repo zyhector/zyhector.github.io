@@ -6,7 +6,7 @@ draft: false
 toc:
     enable: true
 weight: false
-categories: ["学算法"]
+categories: ["问学书斋"]
 tags: ["游戏","图形学","Culling"]
 ---
 

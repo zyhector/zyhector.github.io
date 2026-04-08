@@ -1,7 +1,7 @@
 ---
 title: "Hello World与碎碎念"
 date: 2023-07-06T10:39:25+08:00
-categories: ['碎碎念']
+categories: []
 tags: ['立下的flag']
 ---
 

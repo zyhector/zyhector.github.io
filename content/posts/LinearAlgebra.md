@@ -6,7 +6,7 @@ draft: true
 toc:
     enable: true
 weight: false
-categories: ["学数学"]
+categories: ["问学书斋"]
 tags: ["线性代数", "机器学习"]
 ---
 

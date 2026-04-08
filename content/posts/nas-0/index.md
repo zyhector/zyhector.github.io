@@ -6,7 +6,7 @@ date: 2025-02-19T13:35:24+08:00
 toc:
     enable: true
 weight: false
-categories: ["玩具们"]
+categories: ["家酿机房"]
 tags: ["外设", "NAS", "Linux"]
 ---
 

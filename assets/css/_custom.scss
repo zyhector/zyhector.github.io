@@ -1,0 +1,12 @@
+// ==============================
+// Custom style
+// 自定义样式
+// ==============================
+
+// Markdown 语法插入的图片居中显示（手写 <img> 不带 lazyload 类，不受影响）
+// lazysizes 在图片载入后会把 lazyload 改写成 lazyloaded，两个类都要覆盖
+.content img.lazyload,
+.content img.lazyloaded {
+  display: block;
+  margin: 0 auto;
+}

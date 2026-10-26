@@ -1,0 +1,19 @@
+{{- /* 覆写主题默认行为：Markdown 图片使用默认宽度，`![alt](img.png?80%)` 可单图覆盖 */ -}}
+{{- $src := .Destination -}}
+{{- $width := site.Params.page.imageWidth | default "50%" -}}
+{{- $parts := split $src "?" -}}
+{{- if eq (len $parts) 2 -}}
+    {{- $src = index $parts 0 -}}
+    {{- $width = index $parts 1 -}}
+{{- end -}}
+
+{{- if .Title -}}
+    <figure>
+        {{- dict "Src" $src "Title" .Text "Caption" .Title "Width" $width "Linked" true "Resources" .Page.Resources | partial "plugin/img.html" -}}
+        <figcaption class="image-caption">
+            {{- .Title | safeHTML -}}
+        </figcaption>
+    </figure>
+{{- else -}}
+    {{- dict "Src" $src "Title" .Text "Width" $width "Resources" .Page.Resources | partial "plugin/img.html" -}}
+{{- end -}}

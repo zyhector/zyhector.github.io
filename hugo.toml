@@ -312,6 +312,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   #  文章页面全局配置
   [params.page]
     author = "Hector"
+    # Markdown 语法插入图片的默认宽度，单图可用 `![alt](img.png?80%)` 覆盖
+    imageWidth = "50%"
     #  是否在主页隐藏一篇文章
     hiddenFromHomePage = false
     #  是否在搜索结果中隐藏一篇文章
